@@ -1,36 +1,37 @@
 .accordian{
   width: 400px
-  margin: 0 auto;
-}
-
-dt {
-  background-color: #00c6d6;
-  color: white;
-  padding: 10px, 20px;
-  font-size: 20px;
-  font-weight: normal;
-  cursor: pointer;
-  margin: 0;
-
-  &:hover {
-    background-color:
-  }
+  margin: 25 auto;
 }
 
 dl {
-  border: 1px solid #31c6d1;
-  height: 10px
-  overflow: hidden;
-  transition: all 1s ease; 
+    border: 1px solid #3fc6d1;
+    height: 43px;
+    overflow: hidden;
+    transition: height 0.7s ease-in-out;
+// dt is the equivalent to the section tag used my Tim    
 
+  &.hidden {
+    height: 43px;
+  }
+
+
+dt {
+      color: white;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-weight: normal;
+      margin: 0;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
 }
 
-&.hidden {
+&:hover {
 
-  height: 50px;
+  background-color: #00daec;
+  padding-left: 30px;
 }
 
-p{
+dd {
   padding: 10px 20px;
   font-size: 13px;
 }
