@@ -1,0 +1,36 @@
+.accordian{
+  width: 400px
+  margin: 0 auto;
+}
+
+dt {
+  background-color: #00c6d6;
+  color: white;
+  padding: 10px, 20px;
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  margin: 0;
+
+  &:hover {
+    background-color:
+  }
+}
+
+dl {
+  border: 1px solid #31c6d1;
+  height: 10px
+  overflow: hidden;
+  transition: all 1s ease; 
+
+}
+
+&.hidden {
+
+  height: 50px;
+}
+
+p{
+  padding: 10px 20px;
+  font-size: 13px;
+}

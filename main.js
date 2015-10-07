@@ -1,10 +1,12 @@
- 
- $('.section1').click(function() {
-    
-    if($('.section1').hasClass('abc')) {       
-        $(this).removeClass('abc').addClass('ccc');
-    }
-    else{
-        $(this).removeClass('ccc').addClass('abc');
-    }
+//first line of jQuery allows the full accordion to collapse fully
+$('section:not).is(:first').addClass('hidden')
+$('.accordion').on('click', 'dt', function() {
+  $(this).parent().removeClass('hidden').siblings().addClass('hidden');
+
 });
+
+
+
+
+
+ 
